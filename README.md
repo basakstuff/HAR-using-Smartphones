@@ -5,13 +5,16 @@
   <a href="#data-preprocessing">Data Preprocessing</a> •
   <a href="#models">Models</a> •
   <a href="#results">Results</a> •
-  <a href="#acknowledgement">Acknowledgement</a>
+  <a href="#contact">Contact</a> •
+  <a href="#references">References</a> •
 </p>
 
 
 ## Dataset
 
 Smartphone manufacturing companies load Smartphones with various sensors to enhance the user experience. Two of the such sensors are Accelerometer and Gyroscope. Accelerometer measures acceleration while Gyroscope measures angular velocity. Experiments were carried out with a group of 30 volunteers aged 19-48 years. Each person wore a smartphone (Samsung Galaxy S II) around their waist and performed six activities (WALKING, WALKING-UPSTAIRS, WALKING-DOWNSTAIRS, SITTING-DOWN, STANDING-UP, LAYING-DOWN). Using the onboard accelerometer and gyroscope, 3-axis linear acceleration and 3-axis angular velocity were captured at a constant 50Hz rate. Experiments were video-recorded to manually label the data. The resulting dataset was randomly divided into two groups, 70% of the volunteers were selected to generate training data and 30% to generate test data.
+
+[Dataset Link](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
 
 ## Data Preprocessing
 
@@ -97,6 +100,22 @@ The experimental project has been completed. As a result, a pre-prepared dataset
 
 As can be seen in the above results, the best accuracy value was obtained in the Linear SVC model with a result of 0.9677. Although Decision Trees gives the worst accuracy, we need to take into account the training times of all these models. The decision tree, which gave the best results when we compared the training time and the results, alone gave the worst result in accuracy. Then, Linear SVC alone gave good results in this ratio as well as in accuracy evaluation. The worst result was Random Forest, which finished in half the time but had lower accuracy, instead of the Light GBM, which had a training time of ninety minutes. As a result of all these evaluations, it was decided that the best model to be selected was Linear SVC. The parameters that provide this result were also declared in the relevant section.
 
+## Contact
 
+Feel free to email me at basaker98@gmail.com if you run into any issues or have questions, ideas or concerns.
+Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you! 🙂
+
+## References
+
+* Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5–32. https://doi.org/10.1023/A:1010933404324
+* Colaboratory – Google. (n.d.). Retrieved June 11, 2021, from https://research.google.com/colaboratory/faq.html
+* Confusion matrix—Scikit-learn 0.24.2 documentation. (n.d.). Retrieved June 11, 2021, from https://scikitlearn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
+* Guo, G., Wang, H., Bell, D., & Bi, Y. (2004). KNN Model-Based Approach in Classification.
+* Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., & Liu, T.-Y. (n.d.). LightGBM: A Highly Efficient Gradient Boosting Decision Tree. 9.
+* Ladicky, L., & Torr, P. (2011). Linear Support Vector Machines (p. 992).
+* Patle, A., & Chouhan, D. S. (2013). SVM kernel functions for classification. 2013 International Conference on Advances in Technology and Engineering (ICATE), 1–9. https://doi.org/10.1109/ICAdTE.2013.6524743
+* Peng, J., Lee, K., & Ingersoll, G. (2002). An Introduction to Logistic Regression Analysis and Reporting. Journal of Educational Research - J EDUC RES, 96, 3–14. https://doi.org/10.1080/00220670209598786
+* Quinlan, J. R. (1986). Induction of decision trees. Machine Learning, 1(1), 81–106. https://doi.org/10.1007/BF00116251
+* sklearn.metrics.classification_report—Scikit-learn 0.24.2 documentation. (n.d.). Retrieved June 11, 2021, from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
 
 
