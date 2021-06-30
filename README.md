@@ -1,10 +1,10 @@
 <h3 align="center">Human Activity Recognition Using Smartphones Data Set</h4>
 
  <p align="center">
- <a href="#Dataset">Dataset</a> •
-  <a href="#Data-Preprocessing">Data Preprocessing</a> •
-  <a href="#Models">Models</a> •
-  <a href="#Results">Results</a> •
+ <a href="#dataset">Dataset</a> •
+  <a href="#data-preprocessing">Data Preprocessing</a> •
+  <a href="#models">Models</a> •
+  <a href="#results">Results</a> •
   <a href="#acknowledgement">Acknowledgement</a>
 </p>
 
@@ -84,7 +84,18 @@ The k-nearest neighbor (KNN) algorithm is one of the supervised learning algorit
 
 The experimental project has been completed. As a result, a pre-prepared dataset related to the description of human movements with smartphones was used and the dataset selected to use was preprocessed for machine learning models. These models were Logistic Regression, Linear SVC, Kernel SVM, Decision Trees, Random Forest Classifier, Light GBM and KNN. Random sampling and cross validation methods were used in the training. The results of the experiment can be seen in Table.
 
+| Model               | Time (minute) | Accuracy | Time/Accuracy |
+|---------------------|---------------|----------|---------------|
+| Logistic Regression | 12            | 0,9630   | 12,46         |
+| Linear SVC          | 3             | 0,9677   | 3,10          |
+| Kernel SVM          | 25            | 0,9626   | 25,97         |
+| Decision Trees      | 1             | 0,8730   | 1,15          |
+| Random Forest       | 46            | 0,9287   | 49,53         |
+| Light GBM           | 90            | 0,9358   | 96,17         |
+| KNN                 | 17            | 0,9046   | 18,79         |
 
+
+As can be seen in the above results, the best accuracy value was obtained in the Linear SVC model with a result of 0.9677. Although Decision Trees gives the worst accuracy, we need to take into account the training times of all these models. The decision tree, which gave the best results when we compared the training time and the results, alone gave the worst result in accuracy. Then, Linear SVC alone gave good results in this ratio as well as in accuracy evaluation. The worst result was Random Forest, which finished in half the time but had lower accuracy, instead of the Light GBM, which had a training time of ninety minutes. As a result of all these evaluations, it was decided that the best model to be selected was Linear SVC. The parameters that provide this result were also declared in the relevant section.
 
 
 
