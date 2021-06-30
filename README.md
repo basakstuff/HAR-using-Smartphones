@@ -6,7 +6,7 @@
   <a href="#models">Models</a> •
   <a href="#results">Results</a> •
   <a href="#contact">Contact</a> •
-  <a href="#references">References</a> •
+  <a href="#references">References</a> 
 </p>
 
 
@@ -104,6 +104,10 @@ As can be seen in the above results, the best accuracy value was obtained in the
 
 Feel free to email me at basaker98@gmail.com if you run into any issues or have questions, ideas or concerns.
 Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you! 🙂
+<p>
+  <a href="https://www.linkedin.com/in/basaker" rel="nofollow noreferrer">
+    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+  </a> &nbsp; 
 
 ## References
 
